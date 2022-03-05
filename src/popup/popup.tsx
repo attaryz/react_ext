@@ -1,9 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
-
-const test = <p>hello test</p>
+import "./popup.css"
+const test = <img src="atom.png" alt="" />
 
 const root = document.createElement("div")
 document.body.appendChild(root)
 
-React.DOM.render(test, root)
+ReactDOM.render(test, root)
